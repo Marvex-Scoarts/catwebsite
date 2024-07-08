@@ -1,0 +1,155 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#catFact{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #7844F1;
+    background-color: #7844F1;
+    width: 900px;
+    height: 100px;
+}
+
+#newFactBtn{
+    text-align: center;
+    font-size: 30px;
+    width: 240px;
+    height: 80px;
+    color: #FDC03C;
+    background-color: #3B2B08;
+    margin: 0px;
+    padding:10px;
+    border: 3px solid #2596be;
+    border-radius: 10px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a:hover {
+    color: #30a9d3;
+}
+
+.hero {
+    background: #333 url('cat_bg.jpg') center center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#our_products{
+margin: 20px;
+padding: 10px;
+}
+
+.product {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 3px solid yellowgreen;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 10px;
+}
+
+.contact{
+    margin: 10px;
+    padding: 10px;
+}
+
+#contactForm{
+
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid #7844F1;
+}
+
+#contactForm label, textarea, button,input{
+display: flex;
+justify-content: center;
+align-content: center;
+font-size: 24px;
+margin: 8px;
+padding: 10px;
+}
+
+
+footer 
+{
+    width: 100%;
+    bottom:0;
+    background: #00093c;
+   color: #fff;
+   padding: 70px 0 30px;
+   font-size: 13px;
+   line-height: 30px;
+}
+.row{
+    width:85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
